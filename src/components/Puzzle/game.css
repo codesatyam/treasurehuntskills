@@ -77,12 +77,12 @@ color: #ffff;
     justify-content: center;
  }
  .intro:hover{
-    transform:  scale(1.5);
+    transform:  scale(1.2);
     transition: all 1s;
  
   }
    .levels{
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
  }
