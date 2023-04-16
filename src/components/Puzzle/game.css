@@ -1,5 +1,5 @@
 .game{
-    height: 91vh;
+    height: 150vh;
     background-image: url("../../images/back.jpg");
     /* box-sizing: border-box; */
     background-size:     cover;                      /* <------ */
