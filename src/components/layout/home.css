@@ -1,0 +1,97 @@
+  
+ .home{
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    max-width: 100%;
+    /* background-color: rgb(159, 198, 232); */
+    background-image: url("../../images/back4.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center;
+    overflow-y: hidden ! important;
+        overflow-x: hidden ! important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.9;
+    font-family:'Times New Roman', Times, serif
+}
+.home h1{
+    background-color: #faf6f6;
+    padding: 4px;
+    color: #0e0d0d;
+    font-size: 50px;
+    font-weight: 700;
+}
+.home p{
+    /* border: 1px solid red; */
+    background-color: #faf6f6;
+    padding: 7px;
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 5px;
+   color: #070707;
+}
+.home p:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.home h1:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.buttonh {
+    width: 200px;
+     background-color: tomato;
+     padding: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-size: 30px;
+}
+.buttonh:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+@media screen and (max-width:650px){
+    .home h1{
+       display: flex;
+       justify-content: center;
+       font-size: 15px;
+      
+    }
+     
+
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }

@@ -1,0 +1,16 @@
+ .topfoot{
+    padding-top: 15px;
+ }
+  @media screen and (max-width:800px){
+    .topfoot{
+      flex-direction: column;
+      padding: 15px;
+      justify-content: center;
+    }
+    .location >span{
+        font-size: 10px;
+    }
+    .topfoot .fo-right{
+        margin-top: 20px;
+    }
+  }

@@ -1,0 +1,91 @@
+/* body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box} */
+
+/* Full-width input fields */
+.log-Head{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 30%;
+    /* height: 80%; */
+     
+}
+.links{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+input[type=text],input[type=email],input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #edeaea;
+}
+
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+@media (max-width:800px) {
+  .log-Head{
+    height: 150vh;
+  }
+    .login{
+        width: 70%;
+        /* height: 80%; */
+         
+    }
+    .login h4{
+      font-size: 20px;
+    }
+    /* .log-Head{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    input[type=text],input[type=email],input[type=password] {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border: none;
+        background: #edeaea;
+      }
+    
+      form{
+        height: 100vh;
+      }
+}
+ 

@@ -1,0 +1,182 @@
+.profile{
+    height: 120vh;
+    display: flex;
+    width: 100%;
+    color: #ffff;
+    overflow-x: hidden;
+    background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.upper{
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+     /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+     background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* height: 200px; */
+}
+.avator{
+    color: #ffff;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color: #ffff;
+     width: 50%;  
+     border: 1px solid black; 
+     padding: 20px; 
+     /* height: 200px; */
+}
+.personal{
+    width: 100%;
+    
+    /* border: 2px solid red;  */
+    justify-content: space-between;  
+}
+.score{
+    width: 100%;
+    /* border: 2px solid red;  */
+    justify-content: space-between; 
+    margin-top: 30px; 
+}
+.boarder{
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+}
+
+table {
+    width: 100%;
+    text-align: center
+  }
+  .table,.th{
+    color: #ffff;
+    align-items: center;
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  table, th, td {
+    border: 2px solid black;
+    justify-content: center;
+   align-items: center;
+  }
+
+.leader{
+    display: flex;
+    justify-content: center;
+}
+ 
+#nav-leader{
+    color: #ffff;
+    text-decoration: none;
+}
+  .button {
+    
+    display: flex;
+    justify-content: center;
+    vertical-align:middle;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .note{
+    margin-left: 20px;
+  }
+  /* Responsiveness */
+  @media screen and (max-width:800px) {
+  .skill{
+width: 70%;
+  }
+  .email h5{
+    font-size: 10px;
+  }
+  .upper{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    height: 350vh;
+  }
+  .info{
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    border: 0px; 
+  }
+  .boarder{
+    border: 0;
+    width: 100px;
+  }
+  .personal{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .email h5{
+     display: flex;
+     justify-content: center;
+  } */
+  .score{
+    justify-content:center;
+    /* margin: 50px; */
+  }
+  .scor {
+    margin-right: 50px;
+    /* padding: 50px; */
+    /* width: 20%;
+    margin-right: 30px; */
+  }
+  
+}

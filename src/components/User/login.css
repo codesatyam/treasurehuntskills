@@ -1,0 +1,106 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+ 
+  
+ .formm{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+ }  
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .links{
+    font-size: 2rem;
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .links:hover{
+    color: #4CAF50;
+  }
+  
+  .log {
+    text-align: center;
+  }
+  
+  form {
+    /* height: 60vh; */
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 20px 40px;
+    display: inline-block;
+    border: 1px solid #f0e2e2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+    
+  }
+  
+  @media screen and (max-width: 800px) {
+    .formm{
+      display: flex;
+      align-items: center;
+      height: 125vh;
+   } 
+    .formm{
+      height: 125vh;
+      /* margin-bottom: auto; */
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    /* .container {
+      max-width: 100%;
+    } */
+    /* input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 20px 40px;
+      display: inline-block;
+      border: 1px solid #f0e2e2;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      
+    } */
+    .input{
+      margin-bottom: 10px;
+    }
+  }
+  
