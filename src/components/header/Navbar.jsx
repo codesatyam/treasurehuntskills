@@ -5,7 +5,7 @@ import { toast } from "react-hot-toast";
 // import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink,Link } from "react-router-dom";
 import "./Navbar.css"
-import { Context, server } from "C:/Users/hp/OneDrive/Desktop/prehns/Treasure/treasurehunt/src/index.js";
+import { Context, server } from "../../index";
  
 const Navbar=()=>{
   const { isAuthenticated, setIsAuthenticated,loading, setLoading,user } =useContext(Context);
