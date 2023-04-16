@@ -5,7 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import "./profile.css";
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import { Context } from "C:/Users/hp/OneDrive/Desktop/prehns/Treasure/treasurehunt/src/index.js";
+import { Context } from "../../../index.js";
  
  
 const Profile = () => {
