@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+﻿# Welcome to  Treasure Hunt README.md File
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
 
-## Available Scripts
 
-In the project directory, you can run:
+# About Project
 
-### `npm start`
+ This is a Puzzle game Project named  **Treasure Hunt**. It is built using **React js** and the backend part is of Node js, Mangoose, and Express so It is MERN Stack Project with proper **authentication of user**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Set Up project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ **Clone it-** Clone the project in your system.
+   
+ **npm start-** Run this command to start the project. 
+ **React js-** We use several features of Hooks like useState, useeffect, useContext to build the fronted part.
+ **Database & Node js-** I have user MongoDB atlas for database and node js for server.
+ 
+ ## Aim of the project
+ We want to assess the soft skills  ,of users with this puzzle game. soft skills like eye for detail, perseverance, curiosity Problem-solving ,time management etc.
+ 
+ ## Soft skills
+ **Time management**
+**Curiosity**
+**Problem-solving**
+**Perseverance**
+**Patience**
 
-### `npm test`
+## About the puzzle
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ **Levels:**  It has **6 levels** the user needs to complete each in sequence to win.
+ 
+ **Attempts:** In each level user has 5 attempts to find clue answer.
+ 
+ **Dead End:** If the user fail to find any level answer in **5 attempts** then there is a dead end and the **game is over**, need to **start again**.
+ 
+ **Solution:** There is a solution to game exits always.
+ ## Flow chart  of game.
+ ```mermaid
+ graph LR
+A[Create account]  
+B[Already account, Login]
+A --> C(Login)
+C -->D
+B --> D{Play Puzzle}
+D -->E(Profile section to see performance)
+E --> D
+D --> F[Game over or dead end]
+F --> G[start again]
+G --> D
+```
 
-### `npm run build`
+## Solution of Game
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ There are 6 levels.
+ **Solution** 
+ **Level 1** Marble
+ **Level 2** Dollar
+ **Level 3** Twine
+ **Level 4** Binoculars
+ **Level 5** Phone
+ **Level 6** Hairbrush
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+ **Authentication:-** 
+ Every user needs to create an account to play Puzzle after creating an account, need to log in to access the game page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Register page** 
+ Usersr need to haveana account to play puzzle.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Login page** 
+ Users need to login into account to play puzzle.
+ 
+ **Admin portal:-**
+  There is an admin portal that is accessible to only the admin. Here there are several feature line total users and their performance.
+  
+ **Profile Page:-** 
+ Onn the Profile page user can see its performance and accuracy, time and **current level**, and information about himself.
+ 
+ **Game page:-**
+  It controls the complete Puzzle game and tracks the levels of user completed. and take necessary action to give the  option to **Resume Game** or **Start**
+  
+  **Levels page:-**
+   There are 6 levels page and we will to that page where user is currently at any time
+   Each has a **clue** and the  user need to **decode** it and submit it
+   **Next level**
+   When the user submit a  correct answer of clue then automatically **procced to the  next level.**
+   
+   **Dead end page:-** If the user submit 5 wrong answer then the game is over and need to restart
+   
