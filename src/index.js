@@ -5,6 +5,8 @@ import App from './App';
 import { createContext } from "react";
 
 export const server = "https://treasurehunt-3ubt.onrender.com/api/v1";
+// "proxy":"http://localhost:4000",
+//  export const server = "http://localhost:4000/api/v1"; 
 
 export const Context = createContext({ isAuthenticated: false });
 

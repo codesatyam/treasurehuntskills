@@ -139,8 +139,16 @@ table {
   .skill{
 width: 70%;
   }
+  .level-info{
+   width: 100%;
+   margin-right: 20px;
+  }
   .email h5{
     font-size: 10px;
+  }
+  thead{
+    width: 50%;
+    text-align: center
   }
   .upper{
     flex-direction: column;

@@ -51,6 +51,9 @@ const Llast = () => {
   const Handlemove=()=>{
     document.getElementById("clue").innerHTML =user.games.level6.question;
   }
+  const Handleout=()=>{
+    document.getElementById("clue").innerHTML ="Clue";
+  }
   return (
     <div className="game-level">
     <div className="l-h">
@@ -58,14 +61,14 @@ const Llast = () => {
         <h1 className="d-flex justify-content-center mt-3">
           Level 6
         </h1>
-        <h1 className="d-flex justify-content-center mt-3">
+        <h6 className="d-flex justify-content-center mt-3">
           {user.games.level6.level6}
-        </h1>
+        </h6>
       </div>
     </div>
     <div className="clue">
-      <div className="box-clue">
-        <h1  id="clue" onMouseMove={Handlemove}>Clue</h1>
+      <div className="box-clue" id="clue" onMouseMove={Handlemove} onMouseOut={Handleout}>
+        <h1  id="clue" >Clue</h1>
       </div>
     </div>
     <div className="answer">

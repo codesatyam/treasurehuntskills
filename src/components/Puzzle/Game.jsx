@@ -40,7 +40,7 @@ const Game = () => {
             first clue below. Good luck!
           </h6>
         </div>
-        <div className="le d-flex flex-column justify-content-lg-start">
+        <div className="le d-flex flex-column justify-content-center">
           <h2>Rules:-</h2>
           <h6>1.You have to complete each level to win th game</h6>
           <h6>
@@ -50,19 +50,7 @@ const Game = () => {
           <h6>3.Each level has score as 50, 100, 150, 200, 250, 300</h6>
         </div>
       </div>
-      <div className="start d-flex align-items-center justify-content-center mt-4">
-        {user.games.level1.attempt ? (
-          <Button>Completed</Button>
-        ) : (
-          <Link exact to={golevel}>
-            <button class="btnh third d-flex justify-content-center align-items-center">
-              <h1 className="d-flex text-white justify-content-center align-items-center">
-               {stateCom>0 ? "Resume Game": "Start"}
-              </h1>
-            </button>
-          </Link>
-        )}
-      </div>
+     
       <div className="levels text-white">
         <div className="l1 box  d-flex justify-content-center align-items-center">
           <h4>Level 1</h4>
@@ -103,7 +91,19 @@ const Game = () => {
           </div>
         </div>
       </div>
-       
+      <div className="start d-flex align-items-center justify-content-center mt-4">
+        {user.games.level1.attempt ? (
+          <Button>Completed</Button>
+        ) : (
+          <Link exact to={golevel}>
+            <button class="btnh third d-flex justify-content-center align-items-center">
+              <h1 className="d-flex text-white justify-content-center align-items-center">
+               {stateCom>0 ? "Resume Game": "Start"}
+              </h1>
+            </button>
+          </Link>
+        )}
+      </div>
     </div>
   );
 };

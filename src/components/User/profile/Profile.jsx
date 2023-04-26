@@ -79,37 +79,35 @@ const Profile = () => {
       </div>
       <hr />
       <div className="middle">
-        <div className="skills-info mx-3">
+        <div className="skills-info ">
           <div className="skill-head text-white">
             <h2 className="d-flex justify-content-center">Soft skills:</h2>
           </div>
-          <div className="rang text-white">
+          <div className="rang text-white mx-3">
             <h4>Note:- </h4>
             <p>All skills are measured out of 10</p>
           </div>
           {/* <div className="note"></div> */}
         </div>
-        <div className="skill text-white mx-3">
+        <div className="skill text-white mx-4 ">
           <table className="table">
             <thead>
               <tr className="text-white">
                 <th className="th">Skill</th>
                 <th className="th">Problem-solving</th>
                 <th className="th">Curiosity</th>
-                <th className="th">Perseverance</th>
                 
                 <th className="th">Time management</th>
-                <th className="th">Leadership</th>
+                
                 <th className="th">Patience</th>
               </tr>
-              <tr></tr>
+              
               <th className="th">Score</th>
               <td>10</td>
               <td>8</td>
               <td>7</td>
               <td>8</td>
-              <td>9</td>
-              <td>10</td>
+             
             </thead>
           </table>
         </div>
@@ -129,7 +127,7 @@ const Profile = () => {
             </p>
           </div>
         </div>
-        <div className="level-info text-white mx-3">
+        <div className="level-info text-white ">
           <table>
             <thead>
               <tr>
