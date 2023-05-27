@@ -6,6 +6,7 @@ import Footer from "./components/layout/Footer";
 import Home from "./components/layout/Home";
 import Login from "./components/User/Login";
 import Game from "./components/Puzzle/Game";
+// import Test from "./components/Puzzle/Test";
 import "./index.css";
 import Signup from "./components/User/Signup";
 import Profile from "./components/User/profile/Profile";

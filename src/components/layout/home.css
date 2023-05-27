@@ -19,6 +19,7 @@
     font-family:'Times New Roman', Times, serif
 }
 .home h1{
+   margin:0 5%;
     background-color: #faf6f6;
     padding: 4px;
     color: #0e0d0d;
